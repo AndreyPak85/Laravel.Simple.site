@@ -7,17 +7,17 @@
 @section('content')
     <h2>Contact page</h2>
     
-    @if($errors->any())
+    {{-- @if($errors->any())
         <div class="alert alert-danger">
             <ul>
-                @foreach ($errors->all() as $item)
+                @foreach ($errors->all() as $iteme)
                     <li>
                         {{$item}}
                     </li>    
                 @endforeach
             </ul>
         </div>
-    @endif
+    @endif --}}
 
 
 <form action="{{route('contact-form')}}" method="POST">
