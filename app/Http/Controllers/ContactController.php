@@ -23,4 +23,14 @@ class ContactController extends Controller
         
     }
 
+    public function allData() {
+
+        $contact = new Contact();
+
+        //return view('messages', ['data' => $contact->orderBy('id', 'DESC')->take(2)->get() ]);
+
+        return view('messages', ['data' => $contact->where('subject', '=', 'Hello')->get()]);
+        
+    }
+
 }

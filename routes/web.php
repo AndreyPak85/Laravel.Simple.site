@@ -28,4 +28,6 @@ Route::get('/contact', function () {
 
 Route::post('/contact/submit', 'ContactController@submit' )->name('contact-form');
 
+Route::get('/contact/all', 'ContactController@allData')->name('contact-data');
+
 

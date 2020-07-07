@@ -4,6 +4,7 @@
     <a class="p-2 text-dark" href="{{route('home')}}">Main page</a>
       <a class="p-2 text-dark" href="{{route('about')}}">About</a>
       <a class="p-2 text-dark" href="{{route('contact')}}">Contacts</a>
+      <a class="p-2 text-dark" href="{{route('contact-data')}}">Messages</a>
       
     </nav>
     
